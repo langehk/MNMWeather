@@ -1,8 +1,9 @@
 'use strict';
 /*
  * AJaX object
- * @author NML
+ * @author NML 
  * @Date Nov 2019
+ * With a twist from Nadia + 2xMorten
  */
 let Ajax = {
     init() {
