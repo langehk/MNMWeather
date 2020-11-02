@@ -26,7 +26,6 @@ let Ajax = {
                 callback(ev);
             });
             this.ajaxobj.open("GET", filename);
-            debugger;
             this.ajaxobj.send("");
         } catch(err) {
             window.alert(err.message + 'WTF');
