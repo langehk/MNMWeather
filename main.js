@@ -35,6 +35,11 @@ let txtHandler = function(e) {
     pWind.appendChild(wind);
     pMain.appendChild(main);
 
+    divelm.appendChild(pCity);
+    divelm.appendChild(pTemp);
+    divelm.appendChild(pWind);
+    divelm.appendChild(pMain);
+
 }
 
 let advHandler = function(e){
@@ -57,10 +62,10 @@ let getAdvancedWeather = function () {
     });
 }*/
 
-let showstarter = function(){
+let showStarter = function(){
     //getAdvancedWeather();
     getBasicWeather(); 
 }
 
-window.addEventListener("load", showstarter);                  // kick off JS
+window.addEventListener("load", showStarter);                  // kick off JS
 
